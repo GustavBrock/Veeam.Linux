@@ -90,15 +90,15 @@ Ubuntu Server comes in two flavours, a "short-lived" version with fast updates, 
 
 Go to the page [Get Ubuntu Server](https://ubuntu.com/download/server):
 
-![Get Ubuntu Server](images/Ubuntu%201%20Download.PNG)
+![Get Ubuntu Server](images/Ubuntu%201%20Download.png)
 
 Click *Option 2 - Manual server installation* to open the server page:
 
-![](images/Ubuntu%202%20Download.PNG)
+![](images/Ubuntu%202%20Download.png)
 
 Click the download button for the current LTS version of Ubuntu Server, here *Download Ubuntu Server 20.04.3 LTS*, and the download will start at once in Edge:
 
-![](images/Ubuntu%203%20Download.PNG)
+![](images/Ubuntu%203%20Download.png)
 
 Leave the ISO file in your Downloads folder or move it to a folder where you easily can locate it later.
 
@@ -117,11 +117,11 @@ The first method is trivial, but the second takes a few steps. You will need:
 
 The third-party tool to use is *Rufus*. It is free to use and can be downloaded from the [Rufus homepage](http://rufus.ie/):
 
-![](images/Rufus%201.PNG)
+![](images/Rufus%201.png)
 
 Download the current version:
 
-![](images/Rufus%202.PNG)
+![](images/Rufus%202.png)
 
 It is just a file - no installation is required - so just open it when ready and set the **Drive Properties**:
 
@@ -138,25 +138,25 @@ Next, set the **Format Options**:
 
 The Rufus form should now appear like this:
 
-![](images/Rufus%203.PNG)
+![](images/Rufus%203.png)
 
 When **Status** reports READY, click START. That will pop this message:
 
-![](images/Rufus%204.PNG)
+![](images/Rufus%204.png)
 
 Select the recommended *ISO image mode* and Click OK, and this message box will show:
 
-![](images/Rufus%205.PNG)
+![](images/Rufus%205.png)
 
 If the drive to be written to is correct, click OK.
 
 The ISO file will now be written to the USB drive, and Rufus will show the progress in the **Status** bar:
 
-![](images/Rufus%206.PNG)
+![](images/Rufus%206.png)
 
 When done, the **Status** bar will be fully green and display READY:
 
-![](images/Rufus%207.PNG)
+![](images/Rufus%207.png)
 
 Click CLOSE and remove the USB drive from the machine.
 
