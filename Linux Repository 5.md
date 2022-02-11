@@ -27,14 +27,15 @@ If so, this guide is for you. Here, nothing about Linux is taken for granted.
 
 The guide has been split in eight parts. This allows you to skip parts you are either familiar with or wish to implement later if at all.
 
-1. Prepare the install of Linux
-2. Install Linux on the server
-3. Prepare the Linux server for Veeam
-4. Create the immutable Veeam backup repository
-5. Prepare for backup of the Linux server itself
-6. Backup of the Linux server itself
-7. Bare Metal Recovery of the Linux server
-8. Tighten security on the Linux server (MFA/2FA)
+1. [Prepare the install of Linux](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%201.md)
+2. [Install Linux on the server](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%202.md)
+3. [Prepare the Linux server for Veeam](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%203.md)
+4. [Create the immutable Veeam backup repository](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%204.md)
+5. [Prepare for backup of the Linux server itself](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%205.md)
+6. [Backup of the Linux server itself](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%206.md)
+7. [Bare Metal Recovery of the Linux server](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%207.md)
+8. [Tighten security on the Linux server (MFA/2FA)](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%208.md)
+9. [Maintenance and deactivation/reactivation of MFA/2FA](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%209.md)
 
 
 ### Requirements
