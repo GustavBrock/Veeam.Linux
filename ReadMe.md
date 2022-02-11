@@ -65,3 +65,4 @@ The effect is the same as if you back up to tape or DVD and, when done, remove t
 As XFS does not exist in the Windows world, implementing this feature requires a physical Linux server.
 
 ---
+The PDF folder contains the article sections as simple PDF files.
