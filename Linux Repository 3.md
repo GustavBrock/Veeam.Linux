@@ -85,7 +85,7 @@ The first time, before login, ssh will ask for confirmation of the key to use fo
 
 The connection will open, and the welcome message will be displayed:
 
-![](images/ssh%201.PNG)
+![](images/ssh%201.png)
 
 ### Updates and basic configuration
 
@@ -109,11 +109,11 @@ Installing upgrades will modify the system, therefore *sudo* must be used to run
 
 At first, it will display a compressed list of the potential upgrades and ask for your confirmation:
 
-![](images/ssh%202.PNG)
+![](images/ssh%202.png)
 
 Press **Y** and Enter, and the upgrades will now be installed:
 
-![](images/ssh%203.PNG)
+![](images/ssh%203.png)
 
 That finishes the upgrades and updates.
 
@@ -201,7 +201,7 @@ Use this command:
 
 It will return an output like this:
 
-![](images/ssh%204.PNG)
+![](images/ssh%204.png)
 
 
 > If XFS is not installed, install it with these commands:

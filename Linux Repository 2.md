@@ -121,17 +121,17 @@ When booted, **GRUB** will load. This is a widely used Linux boot loader allowin
 
 We have only one wish - to install Ubuntu Server - which is selected by default:
 
-![](images/Ubuntu%201.PNG)
+![](images/Ubuntu%201.png)
 
 Press Enter to load the Ubuntu Server *welcome* screen:
 
-![](images/Ubuntu%202.PNG)
+![](images/Ubuntu%202.png)
 
 Select the language you wish to use. Here *English (US)* is chosen.
 
 Press Enter. This will open the *keyboard configuration* screen:
 
-![](images/Ubuntu%203.PNG)
+![](images/Ubuntu%203.png)
 
 Select the keyboard layout and tab to make *Done* at the bottom having a green display.
 
@@ -146,41 +146,41 @@ The *Network connections* screen lists the options for connection to the network
 
 Select either a network interface or the option to bond several. Here we have selected to bond the two network interfaces found:
 
-![](images/Ubuntu%204.PNG)
+![](images/Ubuntu%204.png)
 
 Press Enter and the *Create bond* window opens:
 
-![](images/Ubuntu%205.PNG)
+![](images/Ubuntu%205.png)
 
 Use the default settings, unless you have some special requirement. Tab to *Create* and press Enter to display the modified settings:
 
-![](images/Ubuntu%206.PNG)
+![](images/Ubuntu%206.png)
 
 Select the bond and select in the pop up menu *Edit IPv4*:
 
-![](images/Ubuntu%207.PNG)
+![](images/Ubuntu%207.png)
 
 This will allow you to configure it using DHCP or a fixed address. The latter is what want, so select *Manual*:
 
-![](images/Ubuntu%208.PNG)
+![](images/Ubuntu%208.png)
 
 Press Enter, and you can edit the manual *bond configuration*:
 
-![](images/Ubuntu%209.PNG)
+![](images/Ubuntu%209.png)
 
 Above the configuration has been filled in with typical values. Carefully adjust these to match your environment exactly.
 
 When ready, tab to *Save* and press Enter. The network configuration will now list your bond (or single network interface) having a *static* address:
 
-![](images/Ubuntu%2010.PNG)
+![](images/Ubuntu%2010.png)
 
 Tab to *Done* and press Enter, and you can configure a proxy:
 
-![](images/Ubuntu%2011.PNG)
+![](images/Ubuntu%2011.png)
 
 Leave *blank* for none, tab to *Done* and press Enter to reach the window where you can specify which *archive mirror* to use:
 
-![](images/Ubuntu%2012.PNG)
+![](images/Ubuntu%2012.png)
 
 A mirror is a server hosting updates and optional installs, which you will need. By default, the closest to you has been selected. Use this. Tab to *Done* and press Enter to reach the disk configuration screen.
 
@@ -188,17 +188,17 @@ A mirror is a server hosting updates and optional installs, which you will need.
 
 The *Guided storage configuration* screen makes it smooth to configure the system disk, which is all we need at this point:
 
-![](images/Ubuntu%2013.PNG)
+![](images/Ubuntu%2013.png)
 
 At top, select to *Use an entire disk* and select the (small) disk to hold the operating system. Then tab to *Done* and press Enter to open the *Storage configuration* status:
 
-![](images/Ubuntu%2014.PNG)
+![](images/Ubuntu%2014.png)
 
 The important part is the top block, FILE SYSTEM SUMMARY, which should list the partitioning of the boot disk. If this doesn't seem correct, tab to *Back* and correct. Nothing has yet been written to the disks, so you can go back and forth as needed until it is correct.
 
 If everything is OK, tab to *Done*, press Enter, and the confirm window will pop up:
 
-![](images/Ubuntu%2015.PNG)
+![](images/Ubuntu%2015.png)
 
 If OK, tab to *Continue* and press Enter to reach the final parts of the initial setup.
 
@@ -213,7 +213,7 @@ The *Profile setup* screen let's you:
 
 Fill in the fields like this example:
 
-![](images/Ubuntu%2016.PNG)
+![](images/Ubuntu%2016.png)
 
 Tab to *Done* and press Enter to proceed to the SSH screen.
 
@@ -223,39 +223,39 @@ Tab to *Done* and press Enter to proceed to the SSH screen.
 
 Install SSH is selected by default:
 
-![](images/Ubuntu%2017.PNG)
+![](images/Ubuntu%2017.png)
 
 Tab to *Done* and press Enter. This will open the list of *Featured Server Snaps* which are supplemental programs and features optionally to be included in the initial install:
 
-![](images/Ubuntu%2018.PNG)
+![](images/Ubuntu%2018.png)
 
 Of these, you will need none for this project, thus move to *Done* and press Enter.
 
 The installation will now proceed and take a little time. When ready, the end of the install log is displayed:
 
-![](images/Ubuntu%2019.PNG)
+![](images/Ubuntu%2019.png)
 
 Tab to *Reboot*, press Enter, and remove the installation media:
 
-![](images/Ubuntu%2020.PNG)
+![](images/Ubuntu%2020.png)
 
 ### Installation ready
 
 After the reboot:
 
-![](images/Ubuntu%2021.PNG)
+![](images/Ubuntu%2021.png)
 
 the text listings will settle after a while, and the minimalistic login message of Linux is displayed:
 
-![](images/Ubuntu%2022.PNG)
+![](images/Ubuntu%2022.png)
 
 To login, type your account name and then your password (which will not be shown):
 
-![](images/Ubuntu%2023.PNG)
+![](images/Ubuntu%2023.png)
 
 Enjoy the welcome message!
 
-![](images/Ubuntu%2024.PNG)
+![](images/Ubuntu%2024.png)
 
 What you see on the Linux screen it the *Bash Shell* - a command line interface for Linux similar to *PowerShell* for Windows.
 
@@ -276,7 +276,7 @@ For the very first attempt, it will ask for a confirmation about the key to use 
 
 Enter the password, and the welcome message will be listed:
 
-![](images/ssh%201.PNG)
+![](images/ssh%201.png)
 
 From now on, we will user PowerShell to interact with the Linux server, as that allows for easy copy/paste of commands and console output.
 
