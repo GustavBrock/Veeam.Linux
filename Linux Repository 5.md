@@ -326,4 +326,4 @@ The server has now been equipped with a top-class system backup, and a recovery 
 
 However, first a backup job must be configured. This will be explained in detail in **Part 6** of this series:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 6](link)
+[Build an immutable backup repository for Veeam Backup & Replication. Part 6](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%206.md)

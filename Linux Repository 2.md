@@ -284,4 +284,4 @@ From now on, we will user PowerShell to interact with the Linux server, as that 
 
 The server now has a basic Ubuntu installation and is ready for the next step - preparing it for installation of the immutable backup repository - which is explained in detail in **Part 3** of this series:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 3](link)
+[Build an immutable backup repository for Veeam Backup & Replication. Part 3](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%203.md)

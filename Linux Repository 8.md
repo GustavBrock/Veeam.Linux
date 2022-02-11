@@ -296,9 +296,7 @@ Keep in mind, though, that everything falls to the ground, if the bad guy (black
 
 ---
 
-This is the last part of the series of articles that started with:
+This is the last part of the series of articles that deals with the installation of the immutable repository.
+The last covers a few maintenance tasks:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 1](link)
-
-
-
+[Build an immutable backup repository for Veeam Backup & Replication. Part 9](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%209.md)

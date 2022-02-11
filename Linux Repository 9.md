@@ -2,7 +2,7 @@
 
 ![Title](images/EE-title-veeam-linux.png)
 
-This guide will show you, step by step, how to create and implement a disk-based immutable Veeam backup repository from scratch. 
+This guide will show you, step by step, how to create and implement a disk-based immutable Veeam backup repository from scratch.
 In this part: Maintenance and deactivation/reactivation of MFA/2FA.
 
 ---
@@ -211,11 +211,11 @@ Click *Add* and select *Single-use credentials for hardened repository ...* :
 
 ![](images/trans%208.png)
 
-to open the *Credentials* window: 
+to open the *Credentials* window:
 
 ![](images/trans%209.png)
 
-Type in the username and password as shown. 
+Type in the username and password as shown.
 
 > Don't just select the previously entered *veeamuser* account. Retyping it ensures, that Veeam will attempt to use the account as an administrator account - as indicated by the checkmark in:
 >
@@ -284,4 +284,4 @@ In this section, it has been shown how to deactivate and reactivate MFA/2FA auth
 
 This is the last part of the series of articles that started with:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 1](link)
+[Build an immutable backup repository for Veeam Backup & Replication. Part 1](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%201.md)

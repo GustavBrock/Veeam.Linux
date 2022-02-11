@@ -174,4 +174,4 @@ This concludes the basic setup of the immutable backup repository as well as ent
 
 What's missing could only be some added security for protecting the server from a worst case scenario. These steps and how to implement them will be explained in detail in **Part 8** of this series:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 8](link)
+[Build an immutable backup repository for Veeam Backup & Replication. Part 8](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%208.md)

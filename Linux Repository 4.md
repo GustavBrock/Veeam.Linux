@@ -359,8 +359,8 @@ The only option to delete the backup file is to have physical access to the mach
 
 However, you can tighten the security further by implementing MFA/2FA authentication making it impossible to login to the server having only the credentials. This we will establish in **Part 8** of this series:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 8](link)
+[Build an immutable backup repository for Veeam Backup & Replication. Part 8](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%208.md)
 
 Next step, however, is to establish *backup of the Linux server* itself. This we will arrange for in **Part 5** of this series:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 5](link)
+[Build an immutable backup repository for Veeam Backup & Replication. Part 5](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%205.md)

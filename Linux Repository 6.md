@@ -190,4 +190,4 @@ The server has now been equipped with a top-class fully configured system backup
 
 How to do this is explained in detail in **Part 7** of this series:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 7](link)
+[Build an immutable backup repository for Veeam Backup & Replication. Part 7](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%207.md)

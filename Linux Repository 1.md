@@ -166,4 +166,4 @@ You now have the install media ready, a DVD or a USB drive, with Ubuntu Server f
 
 Next step is to use the media to install the Linux server. This is explained in **Part 2** of this series:
 
-[Build an immutable backup repository for Veeam Backup & Replication. Part 2](link)
+[Build an immutable backup repository for Veeam Backup & Replication. Part 2](https://github.com/GustavBrock/Veeam.Linux/blob/main/Linux%20Repository%202.md)
