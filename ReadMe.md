@@ -66,3 +66,9 @@ As XFS does not exist in the Windows world, implementing this feature requires a
 
 ---
 The PDF folder contains the article sections as simple PDF files.
+
+---
+
+*If you wish to support my work or need extended support or advice, feel free to:*
+
+[<img src="https://raw.githubusercontent.com/GustavBrock/Veeam.Linux/master/images/BuyMeACoffee.png">](https://www.buymeacoffee.com/gustav/)
