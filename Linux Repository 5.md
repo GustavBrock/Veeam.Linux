@@ -267,7 +267,7 @@ This concludes the installation of the *Veeam Agent for Linux* and the initial c
 
 Now, armed with the ISO file just created, it is time create the physical recovery media - an external USB drive.
 
-It can be a stick or a SSD/harddisk as you prefer, but an old USB stick of decent quality will fit, as the requirements are very modest: A capacity of 1 GB will do.
+It can be a stick or a SSD/harddisk as you prefer, but an old USB stick of decent quality will fit, as the requirements are very modest: A capacity of 1 GB will do for Ubuntu 20.x and 2 GB for 22.x.
 
 Insert the USB drive in your Windows workstation and format the drive - preferably *not* using a quick format - to be sure it is absolutely healthy.
 
@@ -303,11 +303,14 @@ and the full command will be (no line break):
 sudo dd bs=4M if=/media/veeam-recovery-amd64-5.0.0.iso of=/dev/sdg status=progress oflag=sync
 ```
 
-Had you used an internal separate disk, it would most likely had been labelled */dev/sdc*, and the command and copy process would appear like this:
+Had you used an internal separate disk, it would most likely had been labelled */dev/sdc*.
 
-![](images/recovery%2017.png)
+When the copy is done, your recovery media is ready for use. However, for quick identification, do add a *label* to the drive, for example *VEEAM BOOT*, with this command:
 
-When the copy is done, your recovery media is ready for use.
+```
+$ sudo fatlabel /dev/sdg2 "VEEAM BOOT"
+```
+
 
 > If you are the cautious type, you will - of course - pick yet a USB drive and repeat the last steps to have a *spare recovery drive*, just in case.
 
