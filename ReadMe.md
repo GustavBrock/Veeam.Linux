@@ -53,8 +53,12 @@ The [XFS](https://en.wikipedia.org/wiki/XFS) file system was introduced by SGI i
 
 XFS was ported to Linux in 2001. As SGI ceased operations in 2009, Linux is today the only operating system supporting XFS.
 
-Why is this important? Because XFS is *the only file system offering immutability*:
-> Once the file is set immutable, this file is impervious to change for any user. Even the root cannot modify, remove, overwrite, move or rename the file. You will need to unset the immutable attribute before you can tamper with the file again.
+Why is this important? Because XFS is a file system offering *block cloning* and *immutability* together:
+
+
+- Once the file is set immutable, this file is impervious to change for any user. 
+- Even root cannot modify, remove, overwrite, move or rename the file.
+- You will need to unset the immutable attribute as root before you can make changes to the file again.
 
 For the details about handling this, study *Dan Nanni*'s blog on Xmodulo: [How to make a file immutable on Linux](https://www.xmodulo.com/make-file-immutable-linux.html).
 
